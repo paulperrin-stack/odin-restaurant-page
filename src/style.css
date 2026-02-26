@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+:root {
+    --burgundy: #4a0617;
+    --red-accent: #a61b34;
+    --cream: #f5f0e6;
+    --dark: #1b1b21;
+    --beige: #d2b48c;
+    --gold: #d4af37;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cream);
+}
+
+nav {
+    background-color: var(--dark);
+    padding: 1rem 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+nav button {
+    background: none;
+    border: none;
+    color: var(--cream);
+    font-size: 1rem;
+    cursor: pointer;
+    letter-spacing: 1px;
+    padding: 0.5rem 1rem;
+    font-family: 'Playfair Display', Georgia, serif;
+}
+
+nav button:hover {
+    color: var(--gold);
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+h1 {
+    font-family: 'Playfair Display', Georgia, serif;
+    color: var(--burgundy);
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 2rem 0;
+}
+
+.hero {
+    background-image: url("./images/background-home.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.hero p {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    color: var(--cream);
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-style: italic;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+}
