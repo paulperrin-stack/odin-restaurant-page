@@ -19,7 +19,7 @@ const menuItems = [
   },
   {
     name: "Confit de Canard",
-    description: "Duck leg confit slowly in its own fat until meltingly tender with ultra-crispy skin. Accompanied by golden roasted potatoes and a light frisée salad.",
+    description: "Duck leg slowly cooked in its own fat until meltingly tender with ultra-crispy skin. Accompanied by golden roasted potatoes and a light frisée salad.",
     image: canardImg,
   },
   {

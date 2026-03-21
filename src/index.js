@@ -15,6 +15,7 @@ document.getElementById("home-btn").addEventListener("click", () => {
 });
 
 document.getElementById("menu-btn").addEventListener("click", () => {
+  setActiveBtn("menu-btn");
   document.getElementById("content").innerHTML = "";
   loadMenuPage();
 });
